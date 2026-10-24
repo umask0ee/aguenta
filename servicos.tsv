@@ -1,0 +1,16 @@
+# nome	ram_mb	precisa_root	nota
+openssh	10	nao	o sshd do termux usa a porta 8022
+syncthing	100	nao	sincroniza, mas não substitui backup
+filebrowser	50	nao	
+navidrome	80	nao	
+gitea	150	nao	
+uptime-kuma	150	nao	
+jellyfin	400	nao	transcodificar pesa na cpu
+code-server	500	nao	
+nextcloud	500	nao	inclui php e banco
+synapse	500	nao	cresce com o uso, e o conduit é a alternativa leve
+conduit	50	nao	servidor matrix leve
+clamav	1200	nao	isso só para carregar as assinaturas
+pi-hole	100	sim	o dns usa a porta 53 e porta abaixo de 1024 exige root
+samba	50	sim	os clientes esperam a porta 445 e porta abaixo de 1024 exige root
+wireguard	20	sim	o termux sem root não cria interface de rede, então use o app oficial
