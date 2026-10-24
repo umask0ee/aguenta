@@ -1,6 +1,6 @@
 # aguenta
 
-Script para Termux que lê o celular e diz o que ele aguenta rodar, como ambiente gráfico, Podroid e serviços de self-host.
+Script para Termux que lê o celular e diz o que ele aguenta rodar, como ambiente gráfico, Podroid e serviços para hospedar em casa.
 
 ## Rodando
 
@@ -37,9 +37,7 @@ Para corrigir o consumo de um serviço, mande a medição e como ela foi feita.
 
 ## Próximos passos
 
-- Teste térmico curto, para ver quanto a CPU cai de frequência sob carga.
-- Saída num formato que instaladores como o linux-android possam ler antes de oferecer o menu de ambientes.
-- Mais serviços em `servicos.tsv`, com consumo medido.
+Um teste térmico curto, para ver quanto a CPU cai de frequência sob carga. Uma saída num formato que instaladores como o `linux-android` possam ler antes de oferecer o menu de ambientes. E mais serviços em `servicos.tsv`, com consumo medido.
 
 ## Licença
 
